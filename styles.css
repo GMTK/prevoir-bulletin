@@ -55,3 +55,9 @@ body {
     background-color: #EBF4FE;
 }
 
+@media (max-width: 600px) {
+    .header-img, .container {
+        width: 112vh;
+    }
+}
+
