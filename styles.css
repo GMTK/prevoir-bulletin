@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+.header-img {
+    width: 76%;
+    height: 10rem;
+    padding: 0.27rem;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin-top: 10px;
+    width: 76%;
+    background-color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.table-container {
+    background-color: white;
+}
+
+.table-container table tr th {
+    color: #047cd3;
+}
+
+.table-container table tr td input, #vt, #mg, #credit, #button{
+    width: 100%;
+    padding: 0.5rem;
+    border-style: none;
+    text-align: center;
+}
+
+#vt, #mg, #credit {
+    display: none;
+}
+
+#button {
+    cursor: pointer;
+    background-color: #EBF4FE;
+}
+
