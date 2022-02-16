@@ -9,7 +9,7 @@ body {
 }
 
 .header-img {
-    width: 76%;
+    width: 152vh;
     height: 10rem;
     padding: 0.27rem;
     margin-top: 10px;
@@ -24,7 +24,7 @@ body {
 
 .container {
     margin-top: 10px;
-    width: 76%;
+    width: 152vh;
     background-color: #eee;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
