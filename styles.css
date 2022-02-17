@@ -60,8 +60,16 @@ body {
         width: 100%;
     }
 
-    .table-container table tr td, .table-container table tr td input, .table-container table tr th {
-        font-size: 0.45rem;
+    .container {
+        padding: 0.4rem;
+    }
+
+    .table-container table tr td, .table-container table tr th {
+        font-size: 0.4rem;
+    }
+
+    .table-container table tr td input {
+        font-size: 0.3rem;
     }
 }
 
