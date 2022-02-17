@@ -57,7 +57,11 @@ body {
 
 @media (max-width: 600px) {
     .header-img, .container {
-        width: 112vh;
+        width: 100%;
+    }
+
+    .table-container table tr td, .table-container table tr td input, .table-container table tr th {
+        font-size: 0.45rem;
     }
 }
 
