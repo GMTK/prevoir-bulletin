@@ -33,7 +33,7 @@ function calcul() {
     const mdec = [document.getElementById("mdec1"), document.getElementById("mdec2"), document.getElementById("mdec3"), document.getElementById("mdec4"), document.getElementById("mdec5")]
 
     for (let i = 0; i < mods.length; i++) {
-        if ((mods[i] >= 10) || (mods[i] >= 9 && mg >= 10 && elem[i] >= 7 && elem[i] + 1 >= 7)) {
+        if ((mods[i] >= 10) || (mods[i] >= 9 && mg >= 10 && elem[i] >= 7 && elem[i + 1] >= 7)) {
             mdec[i].value = "V"
         }
         else {
