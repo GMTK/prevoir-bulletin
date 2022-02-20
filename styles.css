@@ -92,11 +92,11 @@ body {
     }
 
     .table-container table tr td, .table-container table tr th {
-        font-size: 0.4rem;
+        font-size: 0.35rem;
     }
 
     .table-container table tr td input {
-        font-size: 0.3rem;
+        font-size: 0.22rem;
     }
 }
 
