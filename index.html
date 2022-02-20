@@ -11,137 +11,14 @@
 <body>
     <center>
         <div class="header-img" align="center">
-            <img src="images/header.jpeg">
+            <img src="../images/header.jpeg">
         </div>
         <div class="container">
-            <div class="table-container">
-                <table border cellspacing="0">
-                    
-                    <tr bgcolor="#EBF4FE">
-                        <th>Module</th>
-                        <th>Element</th>
-                        <th>Credit</th>
-                        <th>Tp</th>
-                        <th>Cc</th>
-                        <th>Examen</th>
-                        <th>Note Finale</th>
-                        <th>Decision</th>
-                        <th>Note Module</th>
-                        <th>Decision Module</th>
-                    </tr>
-                    <tr>
-                        <td align="center" rowspan="2">1</td>
-                        <td>Automates et Languages</td>
-                        <td rowspan="10"><input type="text" value="3" readonly> </td>
-                        <td><input type="text" id="tp1" value="0.0" readonly></td>
-                        <td><input type="text" id="td1"></td>
-                        <td><input type="text" id="ex1"></td>
-                        <td><input type="text" id="nf1" readonly></td>
-                        <td><input type="text" id="dec1" readonly></td>
-                        <td rowspan="2"><input type="text" id="mod1" readonly></td>
-                        <td rowspan="2"><input type="text" id="mdec1" readonly></td>
-                    </tr>
-                    <tr>
-                        <td>Bases de donnees et Systemes d'informations</td>
-                        <td><input type="text" id="tp2"></td>
-                        <td><input type="text" id="td2"></td>
-                        <td><input type="text" id="ex2"></td>
-                        <td><input type="text" id="nf2" readonly></td>
-                        <td><input type="text" id="dec2" readonly></td>
-                    </tr>
-                    <tr>
-                        <td align="center" rowspan="2">2</td>
-                        <td>Programmation JavaSE</td>
-                        <td><input type="text" id="tp3"></td>
-                        <td><input type="text" id="td3"></td>
-                        <td><input type="text" id="ex3"></td>
-                        <td><input type="text" id="nf3" readonly></td>
-                        <td><input type="text" id="dec3" readonly></td>
-                        <td rowspan="2"><input type="text" id="mod2" readonly></td>
-                        <td rowspan="2"><input type="text" id="mdec2" readonly></td>
-                    </tr>
-                    <tr>
-                        <td>Programmation Python</td>
-                        <td><input type="text" id="tp4"></td>
-                        <td><input type="text" id="td4"></td>
-                        <td><input type="text" id="ex4"></td>
-                        <td><input type="text" id="nf4" readonly></td>
-                        <td><input type="text" id="dec4" readonly></td>
-                    </tr>
-                    <tr>
-                        <td align="center" rowspan="2">3</td>
-                        <td>Architecture et Composantes logiques</td>
-                        <td><input type="text" id="tp5" value="0.0" readonly></td>
-                        <td><input type="text" id="td5"></td>
-                        <td><input type="text" id="ex5"></td>
-                        <td><input type="text" id="nf5" readonly></td>
-                        <td><input type="text" id="dec5" readonly></td>
-                        <td rowspan="2"><input type="text" id="mod3" readonly></td>
-                        <td rowspan="2"><input type="text" id="mdec3" readonly></td>
-                    </tr>
-                    <tr>
-                        <td>Systeme d'Exploitation</td>
-                        <td><input type="text" id="tp6" value="0.0" readonly></td>
-                        <td><input type="text" id="td6"></td>
-                        <td><input type="text" id="ex6"></td>
-                        <td><input type="text" id="nf6" readonly></td>
-                        <td><input type="text" id="dec6" readonly></td>
-                    </tr>
-                    <tr>
-                        <td align="center" rowspan="2">4</td>
-                        <td>Programmation Internet</td>
-                        <td><input type="text" id="tp7"></td>
-                        <td><input type="text" id="td7"></td>
-                        <td><input type="text" id="ex7"></td>
-                        <td><input type="text" id="nf7" readonly></td>
-                        <td><input type="text" id="dec7" readonly></td>
-                        <td rowspan="2"><input type="text" id="mod4" readonly></td>
-                        <td rowspan="2"><input type="text" id="mdec4" readonly></td>
-                    </tr>
-                    <tr>
-                        <td>Projet Unix</td>
-                        <td><input type="text" id="tp8"></td>
-                        <td><input type="text" id="td8" value="0.0" readonly></td>
-                        <td><input type="text" id="ex8" value="0.0" readonly></td>
-                        <td><input type="text" id="nf8" readonly></td>
-                        <td><input type="text" id="dec8" readonly></td>
-                    </tr>
-                    <tr>
-                        <td align="center" rowspan="2">5</td>
-                        <td>Anglais III</td>
-                        <td><input type="text" id="tp9" value="0.0" readonly></td>
-                        <td><input type="text" id="td9"></td>
-                        <td><input type="text" id="ex9"></td>
-                        <td><input type="text" id="nf9" readonly></td>
-                        <td><input type="text" id="dec9" readonly></td>
-                        <td rowspan="2"><input type="text" id="mod5" readonly></td>
-                        <td rowspan="2"><input type="text" id="mdec5" readonly></td>
-                    </tr>
-                    <tr>
-                        <td>Francais I</td>
-                        <td><input type="text" id="tp10" value="0.0" readonly></td>
-                        <td><input type="text" id="td10"></td>
-                        <td><input type="text" id="ex10"></td>
-                        <td><input type="text" id="nf10" readonly></td>
-                        <td><input type="text" id="dec10" readonly></td>
-                    </tr>
-                    <tr>
-                        <th colspan="10">
-                            <p>Moyenne Generale: </p>
-                            <input type="text" id="mg" readonly>
-                            <p>Credits:</p>
-                            <input type="text" id="credit" readonly>
-                            <p>Decision Finale:</p>
-                            <input type="text" id="vt" readonly>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td colspan="10">
-                            <button id="button" onclick="calcul()">Valider</button>
-                        </td>
-                    </tr>
-                    
-                </table>
+            <div class="semesters">
+                <div class="s3">
+                    <div><a href="S3/Miage.html">MIAGE</a></div><br>
+                    <div><a href="S3/Mai.html">MAI</a></div>
+                </div>
             </div>
         </div>
     </center>

@@ -31,6 +31,33 @@ body {
     padding: 1rem;
 }
 
+/**/
+
+.semesters div {
+    list-style: none;
+}
+
+.semesters div div {
+    background-color: #047cd3;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.semesters div div:hover {
+    background-color: #269ef5;
+    cursor: pointer;
+}
+
+.semesters div div a {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    text-decoration: none;
+    color: white;
+    font-family: arial, sans-serif;
+}
+/**/
+
 .table-container {
     background-color: white;
 }
