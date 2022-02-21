@@ -82,8 +82,8 @@ body {
     background-color: #EBF4FE;
 }
 
-@media (max-width: 600px) {
-    .header-img, .container {
+@media (max-width: 900px) {
+    .header-img, .container, .table-container table{
         width: 100%;
     }
 
@@ -96,7 +96,7 @@ body {
     }
 
     .table-container table tr td input {
-        font-size: 0.22rem;
+        font-size: 0.25rem;
     }
 }
 
