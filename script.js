@@ -1,3 +1,15 @@
+function convertCommaToDot(strNum) {
+    // Check if the input string contains a comma
+    if (strNum.includes(",")) {
+      // Replace the comma with a dot and return the updated string
+      return strNum.replace(",", ".");
+    } else {
+      // Return the original string if it doesn't contain a comma
+      return strNum;
+    }
+  }
+
+
 function calcul() {
 
     document.getElementById("mg").style.display = "block"
@@ -19,6 +31,14 @@ function calcul() {
     //
 
     for (let i = 0; i < nf.length; i++) {
+
+        console.log(tp[i].value, cc[i].value, exam[i].value)
+
+        tp[i].value = convertCommaToDot(tp[i].value)
+        cc[i].value = convertCommaToDot(cc[i].value)
+        exam[i].value = convertCommaToDot(exam[i].value)
+
+        console.log(tp[i].value, cc[i].value, exam[i].value)
 
         if (tp[i].value == "0.0") {
             nf[i].value = Math.round((cc[i].value * 2 + exam[i].value * 3) / 5 * 100) / 100
