@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prevoir-bulletin</title>
     <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <script src="script.js"></script>
 </head>
 <body>
@@ -13,19 +14,36 @@
         <div class="header-img" align="center">
             <img src="images/header.jpeg">
         </div>
-        <div class="container">
-            <div class="semesters">
-                <div class="s3">
-                    <div><a href="S3/Bg.html">BG</a></div><br>
-                    <div><a href="S3/Info.html">DA2I/L2</a></div><br>
-                    <div><a href="S3/Eea.html">EEA/L2</a></div><br>
-                    <div><a href="S3/Mai.html">MAI/S3</a></div><br>
-                    <div><a href="S4/Mai.html">MAI/S4</a></div><br>
-                    <div><a href="S3/Info.html">MIAGE/L2</a></div><br>
-                    <div><a href="S3/Mpi.html">MPI</a></div><br>
-                    <div><a href="S3/Tser.html">TSER/L2</a></div>
-                </div>
+        <div class="container flex flex-wrap justify-center">
+
+            <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                <h5 class="mb-3 text-xl font-medium text-gray-900 dark:text-white">Licence 1</h5>
+                <button type="submit" onclick="window.location.href='S1/pc.html';" class="mb-3 w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    PC
+                </button>                      
             </div>
+            <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                <h5 class="mb-3 text-xl font-medium text-gray-900 dark:text-white">Licence 2</h5>
+                <button type="submit" onclick="window.location.href='S3/info.html';" class="mb-3 w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    MIAGE
+                  </button>                    
+                <button type="submit" onclick="window.location.href='S3/info.html';" class="mb-3 w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    DA2I
+                </button>                  
+            </div>
+            <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                <h5 class="mb-3 text-xl font-medium text-gray-900 dark:text-white">Licence 3</h5>
+                <button type="submit" onclick="window.location.href='S5/miage.html';" class="mb-3 w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    MIAGE
+                </button>   
+                <button type="submit" onclick="window.location.href='S5/da2i.html';" class="mb-3 w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    DA2I
+                </button>   
+                <button type="submit" onclick="window.location.href='S5/mi.html';" class="mb-3 w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    MI
+                </button>                  
+            </div>
+
         </div>
     </center>
 </body>
